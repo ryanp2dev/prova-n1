@@ -1,0 +1,53 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: url(terra-vista-do-espaco.jpg);
+    
+}
+
+.form {
+    border: 1px solid #ccc;
+    background-color: rgba(204, 204, 204, 0.656);
+    padding: 150px;
+    color: black;
+    font-weight: bold;
+
+}
+
+.form > div {
+    padding-bottom: 20px;
+    display: flex;
+    gap: 10px;
+}
+
+.form > div > input {
+    height: 25px;
+   
+   
+}
+button {
+    margin-top: 5px;
+    height: 50px;
+    width: 400px;
+}
+
+div a {
+    color: black;
+    text-decoration: none;
+}
+
+.home {
+    padding-top: 50px;
+}
+
